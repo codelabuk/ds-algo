@@ -17,7 +17,11 @@
       </plugin>
     </plugins>
   </build>
-  <packaging>jar</packaging>
+  <modules>
+    <module>threading</module>
+    <module>threading</module>
+  </modules>
+  <packaging>pom</packaging>
 
   <name>algorithm-ds</name>
   <url>http://maven.apache.org</url>
