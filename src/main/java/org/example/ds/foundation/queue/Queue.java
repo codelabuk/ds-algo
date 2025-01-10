@@ -1,4 +1,4 @@
-package org.example.queue;
+package org.example.ds.foundation.queue;
 
 import java.util.Iterator;
 import java.util.LinkedList;

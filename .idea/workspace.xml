@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/systemdesign/ratelimiting/SlidingWindowLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/systemdesign/ratelimiting/SlidingWindowCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hashtable/HashTableSeparateChaining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/hashtable/HashTableSeparateChaining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/linkedlist/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/priorityqueue/BinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/priorityqueue/BinaryHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/stack/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +60,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.systemdesign.ratelimiting" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.App (1)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />

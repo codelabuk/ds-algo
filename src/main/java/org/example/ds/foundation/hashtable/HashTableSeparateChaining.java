@@ -1,4 +1,4 @@
-package org.example.hashtable;
+package org.example.ds.foundation.hashtable;
 
 
 import java.util.Arrays;
