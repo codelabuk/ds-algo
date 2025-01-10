@@ -1,4 +1,4 @@
-package org.example.priorityqueue;
+package org.example.ds.foundation.priorityqueue;
 
 import java.util.*;
 

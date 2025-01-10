@@ -1,4 +1,4 @@
-package org.example.linkedlist;
+package org.example.ds.foundation.linkedlist;
 
 import java.util.Iterator;
 import java.util.Spliterator;

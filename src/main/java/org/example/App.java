@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.priorityqueue.BinaryHeap;
+import org.example.ds.foundation.priorityqueue.BinaryHeap;
 
 /**
  * Hello world!
