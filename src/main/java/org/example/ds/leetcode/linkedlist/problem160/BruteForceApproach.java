@@ -1,6 +1,6 @@
 package org.example.ds.leetcode.linkedlist.problem160;
 // Leetcode 160: Intersection of Two Linked Lists
-// Time Complexity - O(m*n) Space Complexity - O(1)
+// Time Complexity - O(m*n) Space Complexity - O(1) due to
 public class BruteForceApproach {
 
     public ListNode getInterSectionNode(ListNode nodeA, ListNode nodeB){
