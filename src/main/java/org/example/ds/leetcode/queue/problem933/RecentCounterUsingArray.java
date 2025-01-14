@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-// Using Queue
+// Using Queue - Time Complexity - O(1), space complexity - O(n)
 class RecentCounterUsingArray {
 
     private ArrayList<Integer> calls;

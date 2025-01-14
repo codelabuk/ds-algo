@@ -3,7 +3,8 @@ package org.example.ds.leetcode.queue.problem933;
 import java.util.LinkedList;
 import java.util.Queue;
 
-// Using Queue
+// Using Queue - Time Complexity - O(n) , Space Complexity - O(n)
+// Sliding Window for including 3000
 class RecentCounter {
 
     private Queue<Integer> calls;
