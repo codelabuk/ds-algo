@@ -36,7 +36,7 @@ import java.util.Stack;
  *
  * Output: true
  */
-public class ValldParenthesis {
+public class ValidParenthesis {
     public boolean isValid(String s) {
         Stack<Character> valStack = new Stack<>();
         for(char c : s.toCharArray()){
