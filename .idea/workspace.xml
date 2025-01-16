@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/leetcode/linkedlist/problem707/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/leetcode/stack/problem155/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/leetcode/stack/problem155/MinStackV1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/leetcode/stack/problem1047/RemoveAllAdajentDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/leetcode/stack/problem1047/RemoveAllAdajentDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.ds.leetcode.queue.problem933" />
       <recent name="org.example.systemdesign.ratelimiting" />
     </key>
   </component>
