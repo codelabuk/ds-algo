@@ -1,4 +1,4 @@
-package org.example.stack;
+package org.example.ds.foundation.stack;
 
 import java.util.EmptyStackException;
 import java.util.LinkedList;
