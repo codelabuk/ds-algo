@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/systemdesign/loadbalancer/WeightedRoundRobin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/interview/MatrixTranspose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/leetcode/string/problem14/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/leetcode/string/problem14/LongestCommonPrefixV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,18 +59,19 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.ds.leetcode.string.problem14" />
       <recent name="org.example.ds.leetcode.hashtables.problem1189" />
       <recent name="org.example.ds.leetcode.queue.problem933" />
       <recent name="org.example.systemdesign.ratelimiting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeightedRoundRobin">
-    <configuration name="MaxNoBalloon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.leetcode.hashtables.problem1189.MaxNoBalloon" />
+  <component name="RunManager" selected="Application.MatrixTranspose">
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.leetcode.string.problem14.LongestCommonPrefix" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ds.leetcode.hashtables.problem1189.*" />
+          <option name="PATTERN" value="org.example.ds.leetcode.string.problem14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxNoBalloonV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.leetcode.hashtables.problem1189.MaxNoBalloonV1" />
+    <configuration name="MatrixTranspose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.interview.MatrixTranspose" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ds.leetcode.hashtables.problem1189.*" />
+          <option name="PATTERN" value="org.example.ds.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixTranspose" />
+        <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.WeightedRoundRobin" />
         <item itemvalue="Application.RoundRobin" />
         <item itemvalue="Application.SolutionFarthestBuilding" />
-        <item itemvalue="Application.MaxNoBalloon" />
-        <item itemvalue="Application.MaxNoBalloonV1" />
       </list>
     </recent_temporary>
   </component>
@@ -251,6 +255,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/systemdesign/loadbalancer/WeightedRoundRobin.java</url>
           <line>22</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/systemdesign/loadbalancer/WeightedRoundRobin.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/systemdesign/loadbalancer/WeightedRoundRobin.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/systemdesign/loadbalancer/WeightedRoundRobin.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/systemdesign/loadbalancer/WeightedRoundRobin.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
