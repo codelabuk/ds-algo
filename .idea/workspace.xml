@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/interview/ArrayMergePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/leetcode/arrays/MoveZeroesProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
       <recent name="org.example.systemdesign.ratelimiting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayMergePattern">
+  <component name="RunManager" selected="Application.MoveZeroesProblem">
     <configuration name="ArrayMergePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ds.interview.ArrayMergePattern" />
       <module name="algorithm-ds" />
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoundRobin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.systemdesign.loadbalancer.RoundRobin" />
+    <configuration name="MoveZeroesProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.leetcode.arrays.MoveZeroesProblem" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.systemdesign.loadbalancer.*" />
+          <option name="PATTERN" value="org.example.ds.leetcode.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoveZeroesProblem" />
         <item itemvalue="Application.ArrayMergePattern" />
         <item itemvalue="Application.MatrixTranspose" />
         <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.WeightedRoundRobin" />
-        <item itemvalue="Application.RoundRobin" />
       </list>
     </recent_temporary>
   </component>
