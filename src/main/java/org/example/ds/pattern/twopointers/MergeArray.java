@@ -4,20 +4,7 @@ import java.util.Arrays;
 
 public class MergeArray {
 
-    /**
-     * Without two pointer
-     *
-     * @param nums1
-     * @param m
-     * @param nums2
-     * @param n
-     */
-    public void mergeV1(int[] nums1, int m, int[] nums2, int n) {
-        for (int i = 0; i < n; i++) {
-            nums1[m + n] = nums2[i];
-        }
-        Arrays.sort(nums1);
-    }
+
 
 
     public static int[] merge(int[] nums1, int m, int[] nums2, int n) {
