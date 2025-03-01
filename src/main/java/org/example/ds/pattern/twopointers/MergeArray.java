@@ -1,4 +1,4 @@
-package org.example.ds.leetcode.pattern.twopointers;
+package org.example.ds.pattern.twopointers;
 
 import java.util.Arrays;
 

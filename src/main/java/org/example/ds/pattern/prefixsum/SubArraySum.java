@@ -1,4 +1,4 @@
-package org.example.ds.leetcode.pattern.prefixsum;
+package org.example.ds.pattern.prefixsum;
 
 import java.util.HashMap;
 
