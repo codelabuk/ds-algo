@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/CreateThreadExampke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/BlockingQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/CreateExecutorServiceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/CreateTheadLocalExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +65,9 @@
       <recent name="org.example.systemdesign.ratelimiting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateThreadExampke">
-    <configuration name="CreateThreadExampke" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threading.CreateThreadExampke" />
+  <component name="RunManager" selected="Application.BlockingQueueExample">
+    <configuration name="BlockingQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threading.BlockingQueueExample" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.leetcode.pattern.twopointers.MergeArray" />
+    <configuration name="CreateExecutorServiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threading.CreateExecutorServiceExample" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ds.leetcode.pattern.twopointers.*" />
+          <option name="PATTERN" value="org.example.threading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.prefixsum.RangeSum" />
+    <configuration name="CreateTheadLocalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threading.CreateTheadLocalExample" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ds.pattern.prefixsum.*" />
+          <option name="PATTERN" value="org.example.threading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.leetcode.pattern.prefixsum.SubArraySum" />
+    <configuration name="CreateThreadExampke" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threading.CreateThreadExampke" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ds.leetcode.pattern.prefixsum.*" />
+          <option name="PATTERN" value="org.example.threading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlockingQueueExample" />
+        <item itemvalue="Application.CreateExecutorServiceExample" />
+        <item itemvalue="Application.CreateTheadLocalExample" />
         <item itemvalue="Application.CreateThreadExampke" />
         <item itemvalue="Application.org.example.ds.pattern.prefixsum.SubArraySum" />
-        <item itemvalue="Application.RangeSum" />
-        <item itemvalue="Application.MergeArray" />
-        <item itemvalue="Application.SubArraySum" />
       </list>
     </recent_temporary>
   </component>
