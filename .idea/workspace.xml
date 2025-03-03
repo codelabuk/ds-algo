@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/MaxAvgSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/TwSumIIInputArraySorted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/threading/CreateExecutorServiceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/CreateExecutorServiceExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <recent name="org.example.systemdesign.ratelimiting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateExecutorServiceExample">
+  <component name="RunManager" selected="Application.MaxAvgSubArray">
     <configuration name="BlockingQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.threading.BlockingQueueExample" />
       <module name="algorithm-ds" />
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateThreadExampke" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threading.CreateThreadExampke" />
+    <configuration name="MaxAvgSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.slidingwindow.MaxAvgSubArray" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.threading.*" />
+          <option name="PATTERN" value="org.example.ds.pattern.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.ds.pattern.prefixsum.SubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.prefixsum.SubArraySum" />
+    <configuration name="TwSumIIInputArraySorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.twopointers.TwSumIIInputArraySorted" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ds.pattern.prefixsum.*" />
+          <option name="PATTERN" value="org.example.ds.pattern.twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxAvgSubArray" />
+        <item itemvalue="Application.TwSumIIInputArraySorted" />
         <item itemvalue="Application.CreateExecutorServiceExample" />
         <item itemvalue="Application.BlockingQueueExample" />
         <item itemvalue="Application.CreateTheadLocalExample" />
-        <item itemvalue="Application.CreateThreadExampke" />
-        <item itemvalue="Application.org.example.ds.pattern.prefixsum.SubArraySum" />
       </list>
     </recent_temporary>
   </component>
@@ -532,6 +533,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/MaxAvgSubArray.java</url>
+          <line>16</line>
+          <properties class="org.example.ds.pattern.slidingwindow.MaxAvgSubArray" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
