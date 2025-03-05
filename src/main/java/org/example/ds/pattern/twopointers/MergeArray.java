@@ -4,9 +4,6 @@ import java.util.Arrays;
 
 public class MergeArray {
 
-
-
-
     public static int[] merge(int[] nums1, int m, int[] nums2, int n) {
         int p1 = m - 1, p2 = n - 1, p = m + n - 1;
 
