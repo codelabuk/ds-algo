@@ -1,4 +1,4 @@
-package org.example.ds.interview;
+package org.example.ds.hackerrank;
 
 public class GrasshopperStairCase {
 

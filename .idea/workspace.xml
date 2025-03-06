@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/interview/GrasshopperStairCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/LongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/interview/GrasshopperStairCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/hackerrank/GrasshopperStairCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +65,13 @@
       <recent name="org.example.systemdesign.ratelimiting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GrasshopperStairCase">
-    <configuration name="CreateExecutorServiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threading.CreateExecutorServiceExample" />
+  <component name="RunManager" selected="Application.ContigousSubArraySum">
+    <configuration name="ContigousSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.prefixsum.ContigousSubArraySum" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.threading.*" />
+          <option name="PATTERN" value="org.example.ds.pattern.prefixsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,11 +80,11 @@
       </method>
     </configuration>
     <configuration name="GrasshopperStairCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.interview.GrasshopperStairCase" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.hackerrank.GrasshopperStairCase" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ds.interview.*" />
+          <option name="PATTERN" value="org.example.ds.hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwSumIIInputArraySorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.twopointers.TwSumIIInputArraySorted" />
+    <configuration name="SubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.prefixsum.SubArraySum" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ds.pattern.twopointers.*" />
+          <option name="PATTERN" value="org.example.ds.pattern.prefixsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContigousSubArraySum" />
+        <item itemvalue="Application.SubArraySum" />
         <item itemvalue="Application.GrasshopperStairCase" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.MaxAvgSubArray" />
-        <item itemvalue="Application.TwSumIIInputArraySorted" />
-        <item itemvalue="Application.CreateExecutorServiceExample" />
       </list>
     </recent_temporary>
   </component>
@@ -557,29 +557,89 @@
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/interview/GrasshopperStairCase.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/hackerrank/GrasshopperStairCase.java</url>
           <line>21</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/interview/GrasshopperStairCase.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/hackerrank/GrasshopperStairCase.java</url>
           <line>23</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/interview/GrasshopperStairCase.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/hackerrank/GrasshopperStairCase.java</url>
           <line>24</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/interview/GrasshopperStairCase.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/hackerrank/GrasshopperStairCase.java</url>
           <line>9</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/interview/GrasshopperStairCase.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/hackerrank/GrasshopperStairCase.java</url>
           <line>10</line>
           <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java</url>

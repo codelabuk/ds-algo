@@ -21,7 +21,7 @@ public class SubArraySum {
     }
 
     public static void main(String[] args) {
-        int[] arrr = {1, 2, 3};
+        int[] arrr = {1, 2, 1,2, 3};
         System.out.println("Output = " + subarraySum(arrr, 3));
     }
 }
