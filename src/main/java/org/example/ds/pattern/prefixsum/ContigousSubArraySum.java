@@ -11,7 +11,7 @@ public class ContigousSubArraySum {
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
             int mod = sum % k;
-            if (mod < 0) mod += k;
+            if (mod < 0) mod += k; // if mod is -ve , make it positive
 
             if (modMap.containsKey(mod)) {
                 if (i - modMap.get(mod) > 1) {

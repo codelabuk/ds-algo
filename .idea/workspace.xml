@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/interview/GrasshopperStairCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/hackerrank/GrasshopperStairCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/ContigousSubArraySum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
