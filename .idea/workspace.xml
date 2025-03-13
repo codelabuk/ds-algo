@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/AnagramString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/PermutationString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/AnagramString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/AnagramString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrasshopperStairCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.hackerrank.GrasshopperStairCase" />
+    <configuration name="PermutationString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.slidingwindow.PermutationString" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ds.hackerrank.*" />
+          <option name="PATTERN" value="org.example.ds.pattern.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.AnagramString" />
+        <item itemvalue="Application.PermutationString" />
         <item itemvalue="Application.DistinctOddSubArraySum" />
         <item itemvalue="Application.SubArraySum" />
         <item itemvalue="Application.ContigousSubArraySum" />
-        <item itemvalue="Application.GrasshopperStairCase" />
       </list>
     </recent_temporary>
   </component>
@@ -808,6 +809,66 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/AnagramString.java</url>
           <line>38</line>
           <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/PermutationString.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/PermutationString.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/PermutationString.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/PermutationString.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/PermutationString.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/PermutationString.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/PermutationString.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/PermutationString.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/PermutationString.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/PermutationString.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/PermutationString.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/PermutationString.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java</url>

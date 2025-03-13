@@ -27,7 +27,7 @@ public class AnagramString {
                 if (sFreq.get(leftChar) == 1) {
                     sFreq.remove(leftChar);
                 } else {
-                    sFreq.remove(leftChar, sFreq.get(leftChar) - 1);
+                    sFreq.put(leftChar, sFreq.get(leftChar) - 1);
                 }
                 left++;
             }
