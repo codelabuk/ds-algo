@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/interview/ArrayfindSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/interview/JavaStream8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/DaemonThreadEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/ThreadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/ThreadExample1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeArray.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,26 +67,13 @@
       <recent name="org.example.systemdesign.ratelimiting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaStream8">
-    <configuration name="AnagramString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.slidingwindow.AnagramString" />
+  <component name="RunManager" selected="Application.ThreadExample1">
+    <configuration name="DaemonThreadEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threading.DaemonThreadEx" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ds.pattern.slidingwindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayfindSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.interview.ArrayfindSum" />
-      <module name="algorithm-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ds.interview.*" />
+          <option name="PATTERN" value="org.example.threading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,21 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.slidingwindow.PermutationString" />
-      <module name="algorithm-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ds.pattern.slidingwindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwSumIIInputArraySorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.twopointers.TwSumIIInputArraySorted" />
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.twopointers.MergeSortedArray" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
@@ -130,13 +107,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threading.ThreadExample" />
+      <module name="algorithm-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threading.ThreadExample1" />
+      <module name="algorithm-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadExample1" />
+        <item itemvalue="Application.DaemonThreadEx" />
+        <item itemvalue="Application.ThreadExample" />
+        <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.JavaStream8" />
-        <item itemvalue="Application.ArrayfindSum" />
-        <item itemvalue="Application.TwSumIIInputArraySorted" />
-        <item itemvalue="Application.AnagramString" />
-        <item itemvalue="Application.PermutationString" />
       </list>
     </recent_temporary>
   </component>
@@ -469,41 +472,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java</url>
           <line>17</line>
           <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeArray.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeArray.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeArray.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeArray.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeArray.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeArray.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeArray.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/slidingwindow/LongestSubstring.java</url>
@@ -920,6 +888,46 @@
           <line>13</line>
           <option name="timeStamp" value="177" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java</url>
           <line>22</line>
@@ -949,5 +957,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithm_ds$MergeSortedArray.ic" NAME="MergeSortedArray Coverage Results" MODIFIED="1742019645738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.ds.pattern.twopointers.*</FILTER>
+    </SUITE>
   </component>
 </project>
