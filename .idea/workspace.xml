@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/DaemonThreadEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/ThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/ThreadExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/interview/CodilityProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/interview/ReversebyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/RangeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SubArraySumK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SumArraySumDivisibleByK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/ContainerWIthMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/ThreeSumProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeArray.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,22 +69,9 @@
       <recent name="org.example.systemdesign.ratelimiting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadExample1">
-    <configuration name="DaemonThreadEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threading.DaemonThreadEx" />
-      <module name="algorithm-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.threading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaStream8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.interview.JavaStream8" />
+  <component name="RunManager" selected="Application.CodilityProblem">
+    <configuration name="CodilityProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.interview.CodilityProblem" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.twopointers.MergeSortedArray" />
+    <configuration name="ContainerWIthMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.twopointers.ContainerWIthMostWater" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
@@ -107,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threading.ThreadExample" />
+    <configuration name="ReversebyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.interview.ReversebyStack" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.threading.*" />
+          <option name="PATTERN" value="org.example.ds.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threading.ThreadExample1" />
+    <configuration name="SumArraySumDivisibleByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.prefixsum.test.SumArraySumDivisibleByK" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.threading.*" />
+          <option name="PATTERN" value="org.example.ds.pattern.twopointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeSumProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.twopointers.ThreeSumProblem" />
+      <module name="algorithm-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ds.pattern.twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadExample1" />
-        <item itemvalue="Application.DaemonThreadEx" />
-        <item itemvalue="Application.ThreadExample" />
-        <item itemvalue="Application.MergeSortedArray" />
-        <item itemvalue="Application.JavaStream8" />
+        <item itemvalue="Application.CodilityProblem" />
+        <item itemvalue="Application.ReversebyStack" />
+        <item itemvalue="Application.ThreeSumProblem" />
+        <item itemvalue="Application.ContainerWIthMostWater" />
+        <item itemvalue="Application.SumArraySumDivisibleByK" />
       </list>
     </recent_temporary>
   </component>
@@ -928,6 +930,151 @@
           <line>20</line>
           <option name="timeStamp" value="185" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/MergeSortedArray.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/RangeSum.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/RangeSum.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/RangeSum.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/RangeSum.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/RangeSum.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/RangeSum.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/RangeSum.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SubArraySumK.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SubArraySumK.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SubArraySumK.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SubArraySumK.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SubArraySumK.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SubArraySumK.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SubArraySumK.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SubArraySumK.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SumArraySumDivisibleByK.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SumArraySumDivisibleByK.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SumArraySumDivisibleByK.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SumArraySumDivisibleByK.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SumArraySumDivisibleByK.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SumArraySumDivisibleByK.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/interview/ReversebyStack.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/interview/ReversebyStack.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/interview/ReversebyStack.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java</url>
           <line>22</line>
@@ -954,6 +1101,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/ContainerWIthMostWater.java</url>
+          <line>22</line>
+          <properties class="org.example.ds.pattern.twopointers.ContainerWIthMostWater" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="216" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
