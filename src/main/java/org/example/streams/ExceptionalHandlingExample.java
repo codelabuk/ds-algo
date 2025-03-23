@@ -14,8 +14,16 @@ public class ExceptionalHandlingExample {
         //list.forEach(ExceptionalHandlingExample::printList);
         // list.forEach(handleException(s -> System.out.println(Integer.parseInt(s))));
         //list.forEach(handleException(s -> System.out.println(Integer.parseInt(s))));
-        list.forEach(handleGenericException(s -> System.out.println(Integer.parseInt(s)) , NumberFormatException.class));
-        list2.forEach(handleGenericException(s -> System.out.println(10/s), ArithmeticException.class));
+//        list.forEach(handleGenericException(s -> System.out.println(Integer.parseInt(s)) , NumberFormatException.class));
+//        list2.forEach(handleGenericException(s -> System.out.println(10/s), ArithmeticException.class));
+
+        List<Integer> list3 = Arrays.asList(10, 15);
+
+        list3.forEach(
+                handleCheckedException(i -> {
+                    Thread.sleep(i);
+                    System.out.println(i);
+                }));
 
     }
 
@@ -50,6 +58,17 @@ public class ExceptionalHandlingExample {
                 } catch (ClassCastException cce) {
                     throw cce;
                 }
+            }
+        };
+    }
+
+    public static <T> Consumer<T> handleCheckedException(CheckedExceptionHandlerConsumer<T, Exception>
+                                                                 handlerConsumer) {
+        return obj -> {
+            try {
+                handlerConsumer.accept(obj);
+            } catch (Exception ex) {
+                System.out.println("Exception occured" + ex.getMessage());
             }
         };
     }
