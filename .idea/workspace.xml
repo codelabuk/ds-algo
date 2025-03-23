@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/interview/CodilityProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/interview/ReversebyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/RangeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SubArraySumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/test/SumArraySumDivisibleByK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/ContainerWIthMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/ThreeSumProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/codility/BinaryGap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/codility/CyclicRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/codility/OddOccurrencesInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +65,20 @@
       <recent name="org.example.systemdesign.ratelimiting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CodilityProblem">
+  <component name="RunManager" selected="Application.OddOccurrencesInArray">
+    <configuration name="BinaryGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.codility.BinaryGap" />
+      <module name="algorithm-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ds.codility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CodilityProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ds.interview.CodilityProblem" />
       <module name="algorithm-ds" />
@@ -83,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerWIthMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.twopointers.ContainerWIthMostWater" />
+    <configuration name="CyclicRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.codility.CyclicRotation" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ds.pattern.twopointers.*" />
+          <option name="PATTERN" value="org.example.ds.codility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OddOccurrencesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.codility.OddOccurrencesInArray" />
+      <module name="algorithm-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ds.codility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,39 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumArraySumDivisibleByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.prefixsum.test.SumArraySumDivisibleByK" />
-      <module name="algorithm-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ds.pattern.twopointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeSumProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.twopointers.ThreeSumProblem" />
-      <module name="algorithm-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ds.pattern.twopointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OddOccurrencesInArray" />
+        <item itemvalue="Application.CyclicRotation" />
+        <item itemvalue="Application.BinaryGap" />
         <item itemvalue="Application.CodilityProblem" />
         <item itemvalue="Application.ReversebyStack" />
-        <item itemvalue="Application.ThreeSumProblem" />
-        <item itemvalue="Application.ContainerWIthMostWater" />
-        <item itemvalue="Application.SumArraySumDivisibleByK" />
       </list>
     </recent_temporary>
   </component>
