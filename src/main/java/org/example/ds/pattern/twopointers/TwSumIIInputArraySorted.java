@@ -8,9 +8,9 @@ public class TwSumIIInputArraySorted {
             int sum = numbers[left] + numbers[right];
             if (sum == target) {
                 return new int[]{left + 1, right + 1};
-            }else if(sum < target){
+            } else if (sum < target) {
                 left++;
-            } else{
+            } else {
                 right--;
             }
         }
@@ -18,8 +18,8 @@ public class TwSumIIInputArraySorted {
     }
 
     public static void main(String[] args) {
-        int[] numbers = new int[]{2,7,11,15};
-        int target =9;
-        System.out.println("Two sum : "+ twoSum(numbers, target));
+        int[] numbers = new int[]{2, 7, 11, 15};
+        int target = 9;
+        System.out.println("Two sum : " + twoSum(numbers, target));
     }
 }
