@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/ListNodeSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/ProducerConsumerProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/problem/ThreadStartProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/problem/ThreadStartProblemV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/problem/ThreadStartProblemV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/TwSumIIInputArraySorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/pattern/twopointers/TwSumIIInputArraySorted.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,33 +57,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.threading.problem" />
       <recent name="org.example.ds.leetcode.pattern.prefixsum" />
       <recent name="org.example.ds.leetcode.string.problem14" />
       <recent name="org.example.ds.leetcode.hashtables.problem1189" />
       <recent name="org.example.ds.leetcode.queue.problem933" />
-      <recent name="org.example.systemdesign.ratelimiting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadStartProblemV1">
+  <component name="RunManager" selected="Application.ThreadStartProblemV2">
     <configuration name="ContigousSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ds.pattern.prefixsum.ContigousSubArraySum" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.ds.pattern.prefixsum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExceptionalHandlingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.ExceptionalHandlingExample" />
-      <module name="algorithm-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadStartProblemV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threading.problem.ThreadStartProblemV2" />
+      <module name="algorithm-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.threading.problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadStartProblemV2" />
         <item itemvalue="Application.ThreadStartProblemV1" />
         <item itemvalue="Application.ThreadStartProblem" />
         <item itemvalue="Application.ListNodeSolution" />
         <item itemvalue="Application.ContigousSubArraySum" />
-        <item itemvalue="Application.ExceptionalHandlingExample" />
       </list>
     </recent_temporary>
   </component>
