@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/problem/ThreadStartProblemV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/problem/forkjoin/ForkJoinExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/SortMapByValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/ListNodeSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/ListNodeSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/ProducerConsumerProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/ProducerConsumerProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <recent name="org.example.ds.leetcode.queue.problem933" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ForkJoinExample">
+  <component name="RunManager" selected="Application.ListProblem">
     <configuration name="ForkJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.threading.problem.forkjoin.ForkJoinExample" />
       <module name="algorithm-ds" />
@@ -79,25 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStartProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threading.problem.ThreadStartProblem" />
+    <configuration name="ListProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.ListProblem" />
       <module name="algorithm-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.threading.problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStartProblemV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threading.problem.ThreadStartProblemV1" />
+    <configuration name="SortMapByValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.SortMapByValues" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.threading.problem.*" />
+          <option name="PATTERN" value="org.example.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListProblem" />
+        <item itemvalue="Application.SortMapByValues" />
         <item itemvalue="Application.ForkJoinExample" />
         <item itemvalue="Application.ThreadStartProblemV3" />
         <item itemvalue="Application.ThreadStartProblemV2" />
-        <item itemvalue="Application.ThreadStartProblemV1" />
-        <item itemvalue="Application.ThreadStartProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -1073,7 +1068,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/ListNodeSolution.java</url>
-          <line>67</line>
+          <line>73</line>
           <option name="timeStamp" value="224" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1088,22 +1083,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/ListNodeSolution.java</url>
-          <line>62</line>
+          <line>68</line>
           <option name="timeStamp" value="236" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/ListNodeSolution.java</url>
-          <line>64</line>
+          <line>70</line>
           <option name="timeStamp" value="237" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/ListNodeSolution.java</url>
-          <line>63</line>
+          <line>69</line>
           <option name="timeStamp" value="238" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/ListNodeSolution.java</url>
-          <line>65</line>
+          <line>71</line>
           <option name="timeStamp" value="239" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

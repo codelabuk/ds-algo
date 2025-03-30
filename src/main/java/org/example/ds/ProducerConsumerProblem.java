@@ -7,16 +7,30 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 
-//class Producer extends Thread{
-//    BlockingQueue<Integer> integerBlockingQueue = new ArrayBlockingQueue<>() ;
-//
-//    @Override
-//    public void run() {
-//        super.run();
-//    }
-//}
+class Producer implements Runnable {
+    BlockingQueue<Integer> queue;
 
-public class ProducerConsumerProblem {
+    Producer(BlockingQueue<Integer> queue) {
+        this.queue = queue;
+    }
 
+    @Override
+    public void run() {
+        try {
+            {
+                for (int i = 0; i < 100; i++) {
+                    Thread.sleep(1000);
+                    queue.put(i);
+                }
+            }
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 
+    }
 }
+
+    public class ProducerConsumerProblem {
+
+
+    }
