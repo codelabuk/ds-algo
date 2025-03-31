@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/SortMapByValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/codility/PermMissingElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/problem/utilities/CountDownLatchExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/ListNodeSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/ListNodeSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ds/ProducerConsumerProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/ProducerConsumerProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <recent name="org.example.ds.leetcode.queue.problem933" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListProblem">
+  <component name="RunManager" selected="Application.PermMissingElements">
     <configuration name="ForkJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.threading.problem.forkjoin.ForkJoinExample" />
       <module name="algorithm-ds" />
@@ -87,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMapByValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.SortMapByValues" />
+    <configuration name="PermMissingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.codility.PermMissingElements" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="PATTERN" value="org.example.ds.codility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStartProblemV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threading.problem.ThreadStartProblemV2" />
+    <configuration name="SortMapByValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.SortMapByValues" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.threading.problem.*" />
+          <option name="PATTERN" value="org.example.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PermMissingElements" />
         <item itemvalue="Application.ListProblem" />
         <item itemvalue="Application.SortMapByValues" />
         <item itemvalue="Application.ForkJoinExample" />
         <item itemvalue="Application.ThreadStartProblemV3" />
-        <item itemvalue="Application.ThreadStartProblemV2" />
       </list>
     </recent_temporary>
   </component>
