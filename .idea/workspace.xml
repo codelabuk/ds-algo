@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/codility/FrogRiverOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/codility/TapeEquilibrium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/StudentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/StudentExampleV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/immutable/CopyCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/immutable/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/MapListProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/threading/problem/utilities/CountDownLatchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/threading/problem/utilities/CountDownLatchExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +56,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/project/algorithm-ds/src/main/java/org/example/collections&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\algorithm-ds\src\main\java\org\example\collections" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.threading.problem" />
       <recent name="org.example.ds.leetcode.pattern.prefixsum" />
@@ -66,13 +72,13 @@
       <recent name="org.example.ds.leetcode.queue.problem933" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FrogRiverOne">
-    <configuration name="ForkJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threading.problem.forkjoin.ForkJoinExample" />
+  <component name="RunManager" selected="Application.CopyCheck">
+    <configuration name="CopyCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.immutable.CopyCheck" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.threading.problem.forkjoin.*" />
+          <option name="PATTERN" value="org.example.immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,28 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.ListProblem" />
-      <module name="algorithm-ds" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PermMissingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.codility.PermMissingElements" />
-      <module name="algorithm-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ds.codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortMapByValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.SortMapByValues" />
+    <configuration name="MapListProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.MapListProblem" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
@@ -126,13 +112,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.StudentExample" />
+      <module name="algorithm-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentExampleV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.StudentExampleV2" />
+      <module name="algorithm-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyCheck" />
+        <item itemvalue="Application.MapListProblem" />
+        <item itemvalue="Application.StudentExampleV2" />
+        <item itemvalue="Application.StudentExample" />
         <item itemvalue="Application.FrogRiverOne" />
-        <item itemvalue="Application.PermMissingElements" />
-        <item itemvalue="Application.ListProblem" />
-        <item itemvalue="Application.SortMapByValues" />
-        <item itemvalue="Application.ForkJoinExample" />
       </list>
     </recent_temporary>
   </component>
@@ -1220,6 +1232,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/collections/StudentExample.java</url>
+          <line>23</line>
+          <properties class="org.example.collections.StudentExample" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="256" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
