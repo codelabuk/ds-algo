@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/StudentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/StudentExampleV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/immutable/CopyCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/immutable/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/MapListProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/codility/MaxCounters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +68,7 @@
       <recent name="org.example.ds.leetcode.queue.problem933" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyCheck">
+  <component name="RunManager" selected="Application.MaxCounters">
     <configuration name="CopyCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.immutable.CopyCheck" />
       <module name="algorithm-ds" />
@@ -86,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrogRiverOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.codility.FrogRiverOne" />
+    <configuration name="MapListProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.MapListProblem" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ds.codility.*" />
+          <option name="PATTERN" value="org.example.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapListProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.MapListProblem" />
+    <configuration name="MaxCounters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.codility.MaxCounters" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="PATTERN" value="org.example.ds.codility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxCounters" />
         <item itemvalue="Application.CopyCheck" />
         <item itemvalue="Application.MapListProblem" />
         <item itemvalue="Application.StudentExampleV2" />
         <item itemvalue="Application.StudentExample" />
-        <item itemvalue="Application.FrogRiverOne" />
       </list>
     </recent_temporary>
   </component>
