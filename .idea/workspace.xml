@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/codility/prefixsum/PassingCars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/structural/adapter/AdvanceMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/structural/adapter/MediaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/structural/adapter/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/structural/adapter/Mp4Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/structural/adapter/VLCPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +65,11 @@
       <recent name="E:\project\algorithm-ds\src\main\java\org\example\collections" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.pattern.structural.adapter" />
       <recent name="org.example.threading.problem" />
       <recent name="org.example.ds.leetcode.pattern.prefixsum" />
       <recent name="org.example.ds.leetcode.string.problem14" />
       <recent name="org.example.ds.leetcode.hashtables.problem1189" />
-      <recent name="org.example.ds.leetcode.queue.problem933" />
     </key>
   </component>
   <component name="RunManager" selected="Application.PassingCars">
