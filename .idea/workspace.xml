@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/codility/MaxCounters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ds/codility/prefixsum/PassingCars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,7 @@
       <recent name="org.example.ds.leetcode.queue.problem933" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxCounters">
+  <component name="RunManager" selected="Application.PassingCars">
     <configuration name="CopyCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.immutable.CopyCheck" />
       <module name="algorithm-ds" />
@@ -108,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.collections.StudentExample" />
+    <configuration name="PassingCars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ds.codility.prefixsum.PassingCars" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.collections.*" />
+          <option name="PATTERN" value="org.example.ds.codility.prefixsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PassingCars" />
         <item itemvalue="Application.MaxCounters" />
         <item itemvalue="Application.CopyCheck" />
         <item itemvalue="Application.MapListProblem" />
         <item itemvalue="Application.StudentExampleV2" />
-        <item itemvalue="Application.StudentExample" />
       </list>
     </recent_temporary>
   </component>
@@ -1183,6 +1183,51 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/threading/problem/forkjoin/ForkJoinExample.java</url>
           <line>21</line>
           <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/codility/prefixsum/PassingCars.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/codility/prefixsum/PassingCars.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/codility/prefixsum/PassingCars.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/codility/prefixsum/PassingCars.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/codility/prefixsum/PassingCars.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/codility/prefixsum/PassingCars.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/codility/prefixsum/PassingCars.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/codility/prefixsum/PassingCars.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/codility/prefixsum/PassingCars.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="265" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java</url>
