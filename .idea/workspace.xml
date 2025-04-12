@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/structural/adapter/AdvanceMediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/structural/adapter/MediaAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/structural/adapter/MediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/structural/adapter/Mp4Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pattern/structural/adapter/VLCPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/test/java/org/example1/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +52,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/project/algorithm-ds/src/main/java/org/example/collections&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "E:/project/algorithm-ds/src/main/java/org/example/collections",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\project\algorithm-ds\src\main\java\org\example\collections" />
@@ -72,13 +74,13 @@
       <recent name="org.example.ds.leetcode.hashtables.problem1189" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PassingCars">
-    <configuration name="CopyCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.immutable.CopyCheck" />
+  <component name="RunManager" selected="Application.org.example1.practice.twopointer.ConstantWIndowSum">
+    <configuration name="ConstantWIndowSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practice.twopointer.ConstantWIndowSum" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.immutable.*" />
+          <option name="PATTERN" value="org.example.practice.twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapListProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.MapListProblem" />
+    <configuration name="CopyCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.immutable.CopyCheck" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="PATTERN" value="org.example.immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentExampleV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.collections.StudentExampleV2" />
-      <module name="algorithm-ds" />
+    <configuration name="org.example1.practice.twopointer.ConstantWIndowSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.twopointer.ConstantWIndowSum" />
+      <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.collections.*" />
+          <option name="PATTERN" value="org.example1.practice.twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example1.practice.twopointer.ConstantWIndowSum" />
+        <item itemvalue="Application.ConstantWIndowSum" />
         <item itemvalue="Application.PassingCars" />
         <item itemvalue="Application.MaxCounters" />
         <item itemvalue="Application.CopyCheck" />
-        <item itemvalue="Application.MapListProblem" />
-        <item itemvalue="Application.StudentExampleV2" />
       </list>
     </recent_temporary>
   </component>
@@ -1232,6 +1234,56 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/codility/prefixsum/PassingCars.java</url>
           <line>9</line>
           <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="277" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java</url>

@@ -17,6 +17,9 @@
       </plugin>
     </plugins>
   </build>
+  <modules>
+    <module>dsa-practice</module>
+  </modules>
   <packaging>pom</packaging>
 
   <name>algorithm-ds</name>
