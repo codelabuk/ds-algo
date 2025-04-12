@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dsa-practice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/test/java/org/example1/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/LongestSubArraySumK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +60,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\project\algorithm-ds\src\main\java\org\example\collections" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\algorithm-ds\dsa-practice\src\main\java\org\example1" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.pattern.structural.adapter" />
       <recent name="org.example.threading.problem" />
@@ -74,7 +71,7 @@
       <recent name="org.example.ds.leetcode.hashtables.problem1189" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example1.practice.twopointer.ConstantWIndowSum">
+  <component name="RunManager" selected="Application.LongestSubArraySumK">
     <configuration name="ConstantWIndowSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.practice.twopointer.ConstantWIndowSum" />
       <module name="algorithm-ds" />
@@ -88,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.immutable.CopyCheck" />
-      <module name="algorithm-ds" />
+    <configuration name="LongestSubArraySumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.twopointer.LongestSubArraySumK" />
+      <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.immutable.*" />
+          <option name="PATTERN" value="org.example1.practice.twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubArraySumK" />
         <item itemvalue="Application.org.example1.practice.twopointer.ConstantWIndowSum" />
         <item itemvalue="Application.ConstantWIndowSum" />
         <item itemvalue="Application.PassingCars" />
         <item itemvalue="Application.MaxCounters" />
-        <item itemvalue="Application.CopyCheck" />
       </list>
     </recent_temporary>
   </component>
