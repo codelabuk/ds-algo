@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/LongestSubArraySumK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/MaxPointsFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,16 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "E:/project/algorithm-ds/src/main/java/org/example/collections",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/project/algorithm-ds/src/main/java/org/example/collections&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\project\algorithm-ds\src\main\java\org\example\collections" />
@@ -71,7 +71,7 @@
       <recent name="org.example.ds.leetcode.hashtables.problem1189" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestSubArraySumK">
+  <component name="RunManager" selected="Application.MaxPointsFromCards">
     <configuration name="ConstantWIndowSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.practice.twopointer.ConstantWIndowSum" />
       <module name="algorithm-ds" />
@@ -98,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxCounters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ds.codility.MaxCounters" />
-      <module name="algorithm-ds" />
+    <configuration name="MaxPointsFromCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.twopointer.MaxPointsFromCards" />
+      <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ds.codility.*" />
+          <option name="PATTERN" value="org.example1.practice.twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxPointsFromCards" />
         <item itemvalue="Application.LongestSubArraySumK" />
         <item itemvalue="Application.org.example1.practice.twopointer.ConstantWIndowSum" />
         <item itemvalue="Application.ConstantWIndowSum" />
         <item itemvalue="Application.PassingCars" />
-        <item itemvalue="Application.MaxCounters" />
       </list>
     </recent_temporary>
   </component>
