@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/MaxConsecutiveOnes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/recursion/PrintRecurr.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/recursion/PrintRecurr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,26 +70,13 @@
       <recent name="org.example.ds.leetcode.string.problem14" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxConsecutiveOnes">
+  <component name="RunManager" selected="Application.ReverseArrayOfString">
     <configuration name="DateConvertor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ds.interview.DateConvertor" />
       <module name="algorithm-ds" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.ds.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestSubStringWithoutRepeatChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.twopointer.LongestSubStringWithoutRepeatChars" />
-      <module name="dsa-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example1.practice.twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,13 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseArrayOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.recursion.ReverseArrayOfString" />
+      <module name="dsa-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example1.practice.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseArrayOfString" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.DateConvertor" />
         <item itemvalue="Application.PrintSUm" />
         <item itemvalue="Application.PrintRecurr" />
-        <item itemvalue="Application.LongestSubStringWithoutRepeatChars" />
       </list>
     </recent_temporary>
   </component>
