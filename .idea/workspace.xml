@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/recursion/ReverseArrayByOnepointer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,7 @@
       <recent name="org.example.ds.leetcode.string.problem14" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseArrayOfString">
+  <component name="RunManager" selected="Application.ReverseArrayByOnepointer">
     <configuration name="DateConvertor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ds.interview.DateConvertor" />
       <module name="algorithm-ds" />
@@ -97,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintRecurr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.recursion.PrintRecurr" />
+    <configuration name="PrintSUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.recursion.PrintSUm" />
       <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintSUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.recursion.PrintSUm" />
+    <configuration name="ReverseArrayByOnepointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.recursion.ReverseArrayByOnepointer" />
       <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseArrayByOnepointer" />
         <item itemvalue="Application.ReverseArrayOfString" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.DateConvertor" />
         <item itemvalue="Application.PrintSUm" />
-        <item itemvalue="Application.PrintRecurr" />
       </list>
     </recent_temporary>
   </component>
@@ -1413,6 +1414,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/recursion/ReverseArrayByOnepointer.java</url>
+          <line>16</line>
+          <properties class="org.example1.practice.recursion.ReverseArrayByOnepointer" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="294" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
