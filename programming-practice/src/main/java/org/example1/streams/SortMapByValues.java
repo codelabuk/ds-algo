@@ -1,4 +1,4 @@
-package org.example.streams;
+package org.example1.streams;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

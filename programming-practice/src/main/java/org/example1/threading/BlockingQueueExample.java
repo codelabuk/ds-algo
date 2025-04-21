@@ -1,4 +1,4 @@
-package org.example.threading;
+package org.example1.threading;
 
 
 import java.util.concurrent.ArrayBlockingQueue;

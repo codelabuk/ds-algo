@@ -1,4 +1,4 @@
-package org.example.threading.problem.utilities;
+package org.example1.threading.problem.utilities;
 
 import java.util.List;
 import java.util.concurrent.CountDownLatch;

@@ -1,4 +1,4 @@
-package org.example.threading.problem;
+package org.example1.threading.problem;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

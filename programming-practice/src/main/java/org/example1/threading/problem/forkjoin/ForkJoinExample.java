@@ -1,4 +1,4 @@
-package org.example.threading.problem.forkjoin;
+package org.example1.threading.problem.forkjoin;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;

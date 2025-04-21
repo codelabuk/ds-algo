@@ -19,6 +19,7 @@
   </build>
   <modules>
     <module>dsa-practice</module>
+    <module>programming-practice</module>
   </modules>
   <packaging>pom</packaging>
 

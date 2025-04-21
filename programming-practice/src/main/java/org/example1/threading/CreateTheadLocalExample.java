@@ -1,4 +1,4 @@
-package org.example.threading;
+package org.example1.threading;
 
 public class CreateTheadLocalExample {
 

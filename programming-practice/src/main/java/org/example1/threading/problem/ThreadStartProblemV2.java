@@ -1,4 +1,4 @@
-package org.example.threading.problem;
+package org.example1.threading.problem;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

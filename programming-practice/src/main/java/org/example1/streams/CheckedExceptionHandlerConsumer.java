@@ -1,4 +1,4 @@
-package org.example.streams;
+package org.example1.streams;
 
 @FunctionalInterface
 public interface CheckedExceptionHandlerConsumer<T, E extends  Exception>{
