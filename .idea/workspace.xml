@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/RotateArrayByDIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/RotateArrayByfirstIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/RotateArrayByDIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/RotateArrayByDIndex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1468,7 +1467,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/programming-practice/src/main/java/org/example1/threading/problem/forkjoin/ForkJoinExample.java</url>
           <line>38</line>
-          <properties class="org.example.threading.problem.forkjoin.ForkJoinExample" method="main">
+          <properties class="org.example1.threading.problem.forkjoin.ForkJoinExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
