@@ -6,11 +6,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dsa-practice/pom.xml" />
+        <option value="$PROJECT_DIR$/programming-practice/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/programming-practice/pom.xml" />
         <option value="$PROJECT_DIR$/threading/pom.xml" />
       </set>
     </option>
