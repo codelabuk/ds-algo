@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/recursion/fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/LargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/SecondLargestinArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,7 @@
       <recent name="org.example.ds.leetcode.string.problem14" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.fibonacci">
+  <component name="RunManager" selected="Application.SecondLargestinArray">
     <configuration name="BalanacedParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example1.practice.stacknqueue.BalanacedParanthesis" />
       <module name="dsa-practice" />
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArrayByOnepointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.recursion.ReverseArrayByOnepointer" />
+    <configuration name="SecondLargestinArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.array.SecondLargestinArray" />
       <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example1.practice.recursion.*" />
+          <option name="PATTERN" value="org.example1.practice.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondLargestinArray" />
         <item itemvalue="Application.fibonacci" />
         <item itemvalue="Application.BalanacedParanthesis" />
         <item itemvalue="Application.FruitsIntoBasketSol" />
         <item itemvalue="Application.PallindromeString" />
-        <item itemvalue="Application.ReverseArrayByOnepointer" />
       </list>
     </recent_temporary>
   </component>
@@ -1416,6 +1417,16 @@
           <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/FruitsIntoBasketSol.java</url>
           <line>23</line>
           <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/SecondLargestinArray.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/SecondLargestinArray.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="310" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java</url>
