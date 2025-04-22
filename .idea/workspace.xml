@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/MoveZerosInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/RotateArrayByDIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/RotateArrayByDIndex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,20 @@
       <recent name="org.example.ds.leetcode.string.problem14" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RotateArrayByDIndex">
+  <component name="RunManager" selected="Application.MoveZerosInArray">
+    <configuration name="MoveZerosInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.array.MoveZerosInArray" />
+      <module name="dsa-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example1.practice.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RemoveDuplicatesInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example1.practice.array.RemoveDuplicatesInSortedArray" />
       <module name="dsa-practice" />
@@ -125,26 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.recursion.fibonacci" />
-      <module name="dsa-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example1.practice.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoveZerosInArray" />
         <item itemvalue="Application.RotateArrayByDIndex" />
         <item itemvalue="Application.RemoveDuplicatesInSortedArray" />
         <item itemvalue="Application.SortedCheckArray" />
         <item itemvalue="Application.SecondLargestinArray" />
-        <item itemvalue="Application.fibonacci" />
       </list>
     </recent_temporary>
   </component>
