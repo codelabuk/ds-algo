@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/MoveZerosInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWindowSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1234,52 +1234,52 @@
           <option name="timeStamp" value="265" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWindowSum.java</url>
           <line>15</line>
           <option name="timeStamp" value="266" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWindowSum.java</url>
           <line>17</line>
           <option name="timeStamp" value="267" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWindowSum.java</url>
           <line>18</line>
           <option name="timeStamp" value="268" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWindowSum.java</url>
           <line>19</line>
           <option name="timeStamp" value="269" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWindowSum.java</url>
           <line>7</line>
           <option name="timeStamp" value="272" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWindowSum.java</url>
           <line>6</line>
           <option name="timeStamp" value="273" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWindowSum.java</url>
           <line>5</line>
           <option name="timeStamp" value="274" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWindowSum.java</url>
           <line>22</line>
           <option name="timeStamp" value="275" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWindowSum.java</url>
           <line>11</line>
           <option name="timeStamp" value="276" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWIndowSum.java</url>
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/ConstantWindowSum.java</url>
           <line>12</line>
           <option name="timeStamp" value="277" />
         </line-breakpoint>

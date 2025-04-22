@@ -1,6 +1,6 @@
 package org.example1.practice.twopointer;
 
-public class ConstantWIndowSum {
+public class ConstantWindowSum {
 
     private static int solution(int[] arr, int k) {
         int l = 0, r = k - 1;
