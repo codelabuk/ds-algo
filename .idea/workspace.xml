@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/LongestSuSTrWIthoutRepeatChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/UnionTwoSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <recent name="org.example.ds.leetcode.string.problem14" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestSuSTrWIthoutRepeatChar">
+  <component name="RunManager" selected="Application.UnionTwoSortedArray">
     <configuration name="LongestSuSTrWIthoutRepeatChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example1.practice.twopointer.LongestSuSTrWIthoutRepeatChar" />
       <module name="dsa-practice" />
@@ -125,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedCheckArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.array.SortedCheckArray" />
+    <configuration name="UnionTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.array.UnionTwoSortedArray" />
       <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UnionTwoSortedArray" />
         <item itemvalue="Application.LongestSuSTrWIthoutRepeatChar" />
         <item itemvalue="Application.MoveZerosInArray" />
         <item itemvalue="Application.RotateArrayByDIndex" />
         <item itemvalue="Application.RemoveDuplicatesInSortedArray" />
-        <item itemvalue="Application.SortedCheckArray" />
       </list>
     </recent_temporary>
   </component>
@@ -1457,6 +1457,66 @@
           <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/twopointer/LongestSuSTrWIthoutRepeatChar.java</url>
           <line>23</line>
           <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/UnionTwoSortedArray.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/UnionTwoSortedArray.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/UnionTwoSortedArray.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/UnionTwoSortedArray.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/UnionTwoSortedArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/UnionTwoSortedArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/UnionTwoSortedArray.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/UnionTwoSortedArray.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/UnionTwoSortedArray.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/UnionTwoSortedArray.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/UnionTwoSortedArray.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/UnionTwoSortedArray.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="331" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java</url>
