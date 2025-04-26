@@ -1,11 +1,11 @@
 package org.example1.practice.multidimarray;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
-public class RoundRobinMatrixTransversal {
-
+public class RoundRobinMatrixPQTransversal {
     public static void main(String[] args) {
         int[][] matrix = {
                 {5, -1, 7, 9},
@@ -19,35 +19,31 @@ public class RoundRobinMatrixTransversal {
 
     static List<Integer> solution(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
+        List<Queue<Integer>> rows = new ArrayList<>();
         boolean isElementLeft;
-
-        List<List<Integer>> rows = new ArrayList<>();
         for (int[] row : matrix) {
-            List<Integer> list = new ArrayList<>();
+            PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
             for (int num : row) {
                 if (num != -1) {
-                    list.add(num);
+                    priorityQueue.add(num);
                 }
             }
-            if (!list.isEmpty()) {
-                Collections.sort(list);
-                rows.add(list);
+            if (!priorityQueue.isEmpty()) {
+                rows.add(priorityQueue);
             }
         }
 
         System.out.println(rows);
-
         do {
             isElementLeft = false;
-            for (List<Integer> row : rows) {
+            for (Queue<Integer> row : rows) {
                 if (!row.isEmpty()) {
-                    result.add(row.remove(0));
+                    result.add(row.poll());
                     isElementLeft = true;
                 }
             }
         } while (isElementLeft);
 
         return result;
-
     }
 }
