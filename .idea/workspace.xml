@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/MergeSortedDescending.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/LinkedListTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/MergeSortedDescending.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/MergeSortedDescending.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LinkedListTraversal.executor": "Run",
     "Application.LongestSubArraySumK.executor": "Run",
     "Application.MergeSortedDescending.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -73,13 +76,13 @@
       <recent name="org.example.ds.leetcode.pattern.prefixsum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSortedDescending">
-    <configuration name="FindMissingNumberUnsorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.array.FindMissingNumberUnsorted" />
+  <component name="RunManager" selected="Application.LinkedListTraversal">
+    <configuration name="LinkedListTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.linkedlist.LinkedListTraversal" />
       <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example1.practice.array.*" />
+          <option name="PATTERN" value="org.example1.practice.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListTraversal" />
         <item itemvalue="Application.MergeSortedDescending" />
         <item itemvalue="Application.LongestSubArraySumK" />
         <item itemvalue="Application.RoundRobinMatrixPQTransversal" />
         <item itemvalue="Application.RoundRobinMatrixTransversal" />
-        <item itemvalue="Application.FindMissingNumberUnsorted" />
       </list>
     </recent_temporary>
   </component>

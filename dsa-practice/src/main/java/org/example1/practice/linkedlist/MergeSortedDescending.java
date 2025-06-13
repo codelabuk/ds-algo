@@ -1,16 +1,6 @@
 package org.example1.practice.linkedlist;
 
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
-}
-
 public class MergeSortedDescending {
 
     static Node merge(Node head1, Node head2) {
