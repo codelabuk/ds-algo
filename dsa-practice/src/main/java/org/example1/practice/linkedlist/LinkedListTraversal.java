@@ -8,6 +8,10 @@ public class LinkedListTraversal {
         Node head = convertToLinkedList(arr);
         printNodes(head);
         System.out.println(lengthOfLinkedList(head));
+        System.out.println(checkIfPresent(head, 3));
+
+        Node newHead = removeAtHead(head);
+        printNodes(newHead);
     }
 
     private static Node convertToLinkedList(int[] arr) {
@@ -39,4 +43,22 @@ public class LinkedListTraversal {
         }
         return count;
     }
+
+    private static boolean checkIfPresent(Node head, int data) {
+        while (head != null) {
+            if (head.data == data) {
+                return true;
+            }
+            head = head.next;
+        }
+        return false;
+    }
+
+    private static Node removeAtHead(Node head) {
+        if (head == null) return head;
+        head = head.next;
+        return head;
+    }
+
+
 }
