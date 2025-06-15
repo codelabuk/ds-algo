@@ -11,8 +11,17 @@ public class LinkedListTraversal {
         System.out.println(checkIfPresent(head, 3));
 
         Node newHead = removeAtHead(head);
+        System.out.println("removed at head");
         printNodes(newHead);
+        System.out.println("New List ====");
+        int[] arr1 = new int[]{1, 2, 3, 4, 5};
+        Node head1 = convertToLinkedList(arr1);
+        printNodes(head1);
+        Node nodes = removeAtTail(head1);
+        System.out.println("Removed at tail");
+        printNodes(nodes);
     }
+
 
     private static Node convertToLinkedList(int[] arr) {
         Node head = new Node(arr[0]);
@@ -57,6 +66,19 @@ public class LinkedListTraversal {
     private static Node removeAtHead(Node head) {
         if (head == null) return head;
         head = head.next;
+        return head;
+    }
+
+
+    private static Node removeAtTail(Node head) {
+        if (head == null || head.next == null) {
+            return null;
+        }
+        Node temp = head;
+        while (temp.next.next != null) {
+            temp = temp.next;
+        }
+        temp.next = null;
         return head;
     }
 
