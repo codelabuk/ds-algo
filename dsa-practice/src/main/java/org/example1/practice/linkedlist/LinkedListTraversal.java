@@ -5,21 +5,29 @@ public class LinkedListTraversal {
     public static void main(String[] args) {
         int[] arr = new int[]{1, 2, 3, 4, 5};
 
+        System.out.println("Remove at head ====");
         Node head = convertToLinkedList(arr);
         printNodes(head);
         System.out.println(lengthOfLinkedList(head));
         System.out.println(checkIfPresent(head, 3));
 
         Node newHead = removeAtHead(head);
-        System.out.println("removed at head");
         printNodes(newHead);
-        System.out.println("New List ====");
+
+        System.out.println("Remove at tail ====");
         int[] arr1 = new int[]{1, 2, 3, 4, 5};
         Node head1 = convertToLinkedList(arr1);
         printNodes(head1);
         Node nodes = removeAtTail(head1);
-        System.out.println("Removed at tail");
         printNodes(nodes);
+
+        System.out.println("Remove at K position ====");
+        int[] arr2 = new int[]{5, 2, 3, 8, 1};
+        Node head2 = convertToLinkedList(arr2);
+        Node node = removeAtPosition(head2, 4);
+        printNodes(node);
+
+
     }
 
 
@@ -82,5 +90,33 @@ public class LinkedListTraversal {
         return head;
     }
 
+    /**
+     * Time Complexity - O(k)
+     * @param head
+     * @param k
+     * @return
+     */
+    private static Node removeAtPosition(Node head, int k) {
+        if (head == null) {
+            return head;
+        }
+        if (k == 1) {
+            head = head.next;
+            return head;
+        }
+        int count = 0;
+        Node temp = head, prev = null;
+        while (temp != null) {
+            count++;
+            if (count == k) {
+                prev.next = prev.next.next;
+                break;
+            }
+            prev = temp;
+            temp = temp.next;
+        }
+
+        return head;
+    }
 
 }
