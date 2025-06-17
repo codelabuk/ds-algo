@@ -27,6 +27,12 @@ public class LinkedListTraversal {
         Node node = removeAtPosition(head2, 4);
         printNodes(node);
 
+        System.out.println("Remove at K element ====");
+        int[] arr3 = new int[]{5, 2, 3, 8, 1};
+        Node head3 = convertToLinkedList(arr3);
+        Node node1 = removeElement(head3, 4);
+        printNodes(node1);
+
 
     }
 
@@ -92,6 +98,7 @@ public class LinkedListTraversal {
 
     /**
      * Time Complexity - O(k)
+     *
      * @param head
      * @param k
      * @return
@@ -116,6 +123,25 @@ public class LinkedListTraversal {
             temp = temp.next;
         }
 
+        return head;
+    }
+
+
+    private static Node removeElement(Node head, int k) {
+        if (head == null) return null;
+        if (head.data == k) {
+            head = head.next;
+            return head;
+        }
+
+        Node temp = head, prev = null;
+        while (temp != null) {
+            if (temp.data == k) {
+                prev.next = prev.next.next;
+            }
+            prev = temp;
+            temp = temp.next;
+        }
         return head;
     }
 
