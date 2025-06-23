@@ -33,7 +33,13 @@ public class LinkedListTraversal {
         Node node1 = removeElement(head3, 4);
         printNodes(node1);
 
+        System.out.println("Insert  at head ====");
+        Node insertNode = insertAtHead(head3, 15);
+        printNodes(insertNode);
 
+        System.out.println("Insert  at Tail ====");
+        Node insertNodeTail = insertAtTail(head3, 18);
+        printNodes(insertNodeTail);
     }
 
 
@@ -143,6 +149,24 @@ public class LinkedListTraversal {
             temp = temp.next;
         }
         return head;
+    }
+
+    private static Node insertAtHead(Node head, int value){
+        Node temp = new Node(value);
+        temp.next = head;
+        return  temp;
+    }
+
+    private static Node insertAtTail(Node head, int value){
+        if(head == null){
+            return new Node(value);
+        }
+        Node temp = head;
+        while(temp.next != null){
+          temp = temp.next;
+        }
+        temp.next =  new Node(value);
+        return  head;
     }
 
 }
