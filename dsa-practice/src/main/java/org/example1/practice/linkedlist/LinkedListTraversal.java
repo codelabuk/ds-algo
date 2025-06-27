@@ -3,74 +3,68 @@ package org.example1.practice.linkedlist;
 public class LinkedListTraversal {
 
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 2, 3, 4, 5};
+        final int[] arr = new int[]{1, 4, 5, 7, 3};
+        Node head = convertFromList(arr);
+        printElement(head);
 
-        System.out.println("Remove at head ====");
-        Node head = convertToLinkedList(arr);
-        printNodes(head);
-        System.out.println(lengthOfLinkedList(head));
-        System.out.println(checkIfPresent(head, 3));
+        System.out.println(checkIfPresent(head, 7));
 
-        Node newHead = removeAtHead(head);
-        printNodes(newHead);
+        //remove At head
 
-        System.out.println("Remove at tail ====");
-        int[] arr1 = new int[]{1, 2, 3, 4, 5};
-        Node head1 = convertToLinkedList(arr1);
-        printNodes(head1);
-        Node nodes = removeAtTail(head1);
-        printNodes(nodes);
+        Node removedHead = removeAtHead(head);
+        printElement(removedHead);
 
-        System.out.println("Remove at K position ====");
-        int[] arr2 = new int[]{5, 2, 3, 8, 1};
-        Node head2 = convertToLinkedList(arr2);
-        Node node = removeAtPosition(head2, 4);
-        printNodes(node);
+        //remove at tail
+        Node removedNodeAtTail = removeAtTail(head);
+        printElement(removedNodeAtTail);
 
-        System.out.println("Remove at K element ====");
-        int[] arr3 = new int[]{5, 2, 3, 8, 1};
-        Node head3 = convertToLinkedList(arr3);
-        Node node1 = removeElement(head3, 4);
-        printNodes(node1);
+        // remove at position
+        Node head1 = convertFromList(arr);
+        Node removeATPos = removeAtKPosition(head1, 3);
+        printElement(removeATPos);
+        // remove element by data
+        Node head2 = convertFromList(arr);
+        Node removeByData = removeElementByData(head2, 4);
+        printElement(removeByData);
 
-        System.out.println("Insert  at head ====");
-        Node insertNode = insertAtHead(head3, 15);
-        printNodes(insertNode);
+        Node head3 = convertFromList(arr);
+        Node addedNodeAtHead = insertELementAtHead(head3, 9);
+        printElement(addedNodeAtHead);
 
-        System.out.println("Insert  at Tail ====");
-        Node insertNodeTail = insertAtTail(head3, 18);
-        printNodes(insertNodeTail);
+        Node head4 = convertFromList(arr);
+        Node addedNodeAtHead1 = insertELementAtTail(head4, 9);
+        printElement(addedNodeAtHead1);
+
+        Node head5 = convertFromList(arr);
+        Node addedNodeAtHead2 = insertELementAtKPosition(head5, 11, 4);
+        printElement(addedNodeAtHead2);
+
+        Node head6 = convertFromList(arr);
+        Node addedNodeAtHead3 = insertELementAfter(head6, 11, 4);
+        printElement(addedNodeAtHead3);
+
+
     }
 
-
-    private static Node convertToLinkedList(int[] arr) {
+    private static Node convertFromList(int[] arr) {
         Node head = new Node(arr[0]);
-        Node mover = head;
+        Node temp = head;
         for (int i = 1; i < arr.length; i++) {
-            Node temp = new Node(arr[i]);
-            mover.next = temp;
-            mover = temp;
+            temp.next = new Node(arr[i]);
+            temp = temp.next;
         }
-
         return head;
-
     }
 
-    private static void printNodes(Node head) {
+
+    private static void printElement(Node head) {
+
         while (head != null) {
             System.out.print(head.data + " ");
             head = head.next;
         }
         System.out.println();
-    }
 
-    private static int lengthOfLinkedList(Node head) {
-        int count = 0;
-        while (head != null) {
-            count++;
-            head = head.next;
-        }
-        return count;
     }
 
     private static boolean checkIfPresent(Node head, int data) {
@@ -83,42 +77,37 @@ public class LinkedListTraversal {
         return false;
     }
 
-    private static Node removeAtHead(Node head) {
-        if (head == null) return head;
+
+    private static Node removeAtHead(Node node) {
+        if (node == null || node.next == null) return node;
+
+        Node head = node;
         head = head.next;
         return head;
     }
 
-
     private static Node removeAtTail(Node head) {
-        if (head == null || head.next == null) {
-            return null;
-        }
+        if (head == null || head.next == null) return null;
+
         Node temp = head;
+
         while (temp.next.next != null) {
             temp = temp.next;
         }
+
         temp.next = null;
         return head;
     }
 
-    /**
-     * Time Complexity - O(k)
-     *
-     * @param head
-     * @param k
-     * @return
-     */
-    private static Node removeAtPosition(Node head, int k) {
-        if (head == null) {
-            return head;
-        }
+    private static Node removeAtKPosition(Node head, int k) {
+        if (head == null) return null;
         if (k == 1) {
             head = head.next;
             return head;
         }
-        int count = 0;
+
         Node temp = head, prev = null;
+        int count = 0;
         while (temp != null) {
             count++;
             if (count == k) {
@@ -128,45 +117,93 @@ public class LinkedListTraversal {
             prev = temp;
             temp = temp.next;
         }
-
         return head;
+
     }
 
-
-    private static Node removeElement(Node head, int k) {
+    private static Node removeElementByData(Node head, int data) {
         if (head == null) return null;
-        if (head.data == k) {
-            head = head.next;
+        if (head.data == data) {
             return head;
         }
-
         Node temp = head, prev = null;
         while (temp != null) {
-            if (temp.data == k) {
+            if (temp.data == data) {
                 prev.next = prev.next.next;
+                break;
             }
             prev = temp;
             temp = temp.next;
         }
         return head;
+
     }
 
-    private static Node insertAtHead(Node head, int value){
-        Node temp = new Node(value);
+    private static Node insertELementAtHead(Node head, int data) {
+        Node temp = new Node(data);
+        if (head == null) return temp;
+
         temp.next = head;
-        return  temp;
+
+        return temp;
     }
 
-    private static Node insertAtTail(Node head, int value){
-        if(head == null){
-            return new Node(value);
+    private static Node insertELementAtTail(Node head, int data) {
+        Node newNode = new Node(data);
+        if (head == null) {
+            return newNode;
+        }
+
+        Node temp = head;
+        while (temp.next != null) {
+            temp = temp.next;
+        }
+
+        temp.next = newNode;
+
+        return head;
+    }
+
+    private static Node insertELementAtKPosition(Node head, int data, int k) {
+        if (head == null) {
+            if (k == 1) {
+                return new Node(data);
+            } else {
+                return null;
+            }
         }
         Node temp = head;
-        while(temp.next != null){
-          temp = temp.next;
+        int count = 0;
+        while (temp != null) {
+            count++;
+            if (count == k) {
+                Node newNode = new Node(data);
+                newNode.next = temp.next;
+                temp.next = newNode;
+                break;
+            }
+            temp = temp.next;
         }
-        temp.next =  new Node(value);
-        return  head;
+        return head;
     }
+
+
+    private static Node insertELementAfter(Node head, int data, int existinData) {
+        if (head == null) {
+            return null;
+        }
+        Node temp = head;
+        while (temp != null) {
+            if (temp.data == existinData) {
+                Node newNode = new Node(data);
+                newNode.next = temp.next;
+                temp.next = newNode;
+                break;
+            }
+            temp = temp.next;
+        }
+        return head;
+    }
+
 
 }
