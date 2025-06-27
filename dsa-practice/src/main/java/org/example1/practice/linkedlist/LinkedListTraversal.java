@@ -192,6 +192,12 @@ public class LinkedListTraversal {
         if (head == null) {
             return null;
         }
+
+        if (head.data == existinData) {
+            Node newNode = new Node(data);
+            newNode.next = head;
+            return newNode;
+        }
         Node temp = head;
         while (temp != null) {
             if (temp.data == existinData) {
