@@ -1,4 +1,4 @@
-package org.example1.practice.linkedlist;
+package org.example1.practice.linkedlist.singly;
 
 public class LinkedListTraversal {
 
