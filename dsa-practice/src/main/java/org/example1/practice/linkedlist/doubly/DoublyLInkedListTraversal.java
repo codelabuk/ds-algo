@@ -3,17 +3,22 @@ package org.example1.practice.linkedlist.doubly;
 public class DoublyLInkedListTraversal {
 
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 4, 2, 5, 6};
 
-        Node doublYNode = convertFromList(arr);
+        Node doublYNode = convertFromList();
         printElement(doublYNode);
 
         Node deletedNode = deleteAtHead(doublYNode);
         printElement(deletedNode);
 
+        Node deletedTail = deleteAtTail(convertFromList());
+        printElement(deletedTail);
+
     }
 
-    private static Node convertFromList(int[] arr) {
+    private static Node convertFromList() {
+
+        final int[] arr = new int[]{1, 4, 2, 5, 6};
+
         Node head = new Node(arr[0]);
         Node prev = head;
 
@@ -43,6 +48,22 @@ public class DoublyLInkedListTraversal {
         head = head.next;
         temp.next = null;
         head.prev = null;
+        return head;
+    }
+
+    private static Node deleteAtTail(Node head) {
+        if (head == null || head.next == null) {
+            return null;
+        }
+        Node tail = head;
+        while (tail.next != null){
+            tail = tail.next;
+        }
+
+        Node prev = tail.prev;
+        prev.next = null;
+        tail.prev = null;
+
         return head;
     }
 }
