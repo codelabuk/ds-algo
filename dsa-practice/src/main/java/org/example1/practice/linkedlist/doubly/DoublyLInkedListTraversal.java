@@ -8,6 +8,9 @@ public class DoublyLInkedListTraversal {
         Node doublYNode = convertFromList(arr);
         printElement(doublYNode);
 
+        Node deletedNode = deleteAtHead(doublYNode);
+        printElement(deletedNode);
+
     }
 
     private static Node convertFromList(int[] arr) {
@@ -32,13 +35,14 @@ public class DoublyLInkedListTraversal {
 
     }
 
-    private static void revPrintElement(Node head) {
-
-        while (head != null) {
-            System.out.print(head.data + " ");
-            head = head.next;
+    private static Node deleteAtHead(Node head) {
+        if (head == null || head.next == null) {
+            return null;
         }
-        System.out.println();
-
+        Node temp = head;
+        head = head.next;
+        temp.next = null;
+        head.prev = null;
+        return head;
     }
 }
