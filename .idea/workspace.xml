@@ -7,6 +7,7 @@
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,25 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DoublyLInkedListTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListTraversalV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubArraySumK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSortedDescending.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/repo/ds-algo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DoublyLInkedListTraversal.executor": "Run",
+    "Application.LinkedListTraversal.executor": "Run",
+    "Application.LinkedListTraversalV1.executor": "Run",
+    "Application.LongestSubArraySumK.executor": "Run",
+    "Application.MergeSortedDescending.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "D:/repo/ds-algo",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\project\algorithm-ds\src\main\java\org\example\collections" />
@@ -1557,6 +1558,131 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/pattern/structural/adapter/Mp4Player.java</url>
           <line>10</line>
           <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="360" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java</url>

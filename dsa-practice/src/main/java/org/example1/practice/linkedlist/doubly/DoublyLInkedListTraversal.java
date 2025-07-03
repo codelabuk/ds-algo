@@ -13,6 +13,9 @@ public class DoublyLInkedListTraversal {
         Node deletedTail = deleteAtTail(convertFromList());
         printElement(deletedTail);
 
+        Node deletedKthTail = deleteKthElement(convertFromList() , 4);
+        printElement(deletedKthTail);
+
     }
 
     private static Node convertFromList() {
@@ -47,7 +50,7 @@ public class DoublyLInkedListTraversal {
         Node temp = head;
         head = head.next;
         temp.next = null;
-        head.prev = null;
+        head.back = null;
         return head;
     }
 
@@ -56,14 +59,48 @@ public class DoublyLInkedListTraversal {
             return null;
         }
         Node tail = head;
-        while (tail.next != null){
+        while (tail.next != null) {
             tail = tail.next;
         }
 
-        Node prev = tail.prev;
+        Node prev = tail.back;
         prev.next = null;
-        tail.prev = null;
+        tail.back = null;
 
+        return head;
+    }
+
+
+    private static Node deleteKthElement(Node head, int k) {
+        if (head == null) {
+            return null;
+        }
+        Node kNode = head;
+        int count = 0;
+        while (kNode != null) {
+            count++;
+            if (count == k) break;
+            kNode = kNode.next;
+        }
+        Node prev = kNode.back;
+        Node front = kNode.next;
+        // only 1 element
+        if (prev == null && front == null) {
+            return null;
+        }
+        // position at front
+        if (prev == null) {
+            return deleteAtHead(kNode);
+        }
+        // position at tail
+        if (front == null) {
+            return deleteAtTail(kNode);
+        }
+        // mid element
+        prev.next = front;
+        front.back = prev;
+        kNode.next = null;
+        kNode.back = null;
         return head;
     }
 }

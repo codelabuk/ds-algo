@@ -3,18 +3,18 @@ package org.example1.practice.linkedlist.doubly;
 public class Node {
     int data;
     Node next;
-    Node prev;
+    Node back;
 
     Node(int data) {
         this.data = data;
         this.next = null;
-        this.prev = null;
+        this.back = null;
     }
 
-    Node(int data, Node prev, Node next) {
+    Node(int data, Node back, Node next) {
         this.data = data;
         this.next = next;
-        this.prev = prev;
+        this.back = back;
     }
 }
 
