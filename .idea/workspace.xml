@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/problem/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/problem/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/stacknqueue/LRUCache.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +87,7 @@
       <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example1.practice.linkedlist.doubly.*" />
+          <option name="PATTERN" value="org.example1.practice.linkedlist.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
