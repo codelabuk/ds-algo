@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/problem/LongestSubstringWithoutRepeatChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/problem/LongestConsecutiveSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +31,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -47,8 +47,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DoublyLInkedListTraversal.executor": "Run",
+    "Application.LeastConsecutiveSequence.executor": "Run",
     "Application.LinkedListTraversal.executor": "Run",
     "Application.LinkedListTraversalV1.executor": "Run",
+    "Application.LongestConsecutiveSequence.executor": "Run",
     "Application.LongestSubArraySumK.executor": "Run",
     "Application.LongestSubstringWithoutRepeatChars.executor": "Run",
     "Application.MergeSortedDescending.executor": "Run",
@@ -81,7 +83,7 @@
       <recent name="org.example.threading.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestSubstringWithoutRepeatChars">
+  <component name="RunManager" selected="Application.LongestConsecutiveSequence">
     <configuration name="DoublyLInkedListTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example1.practice.linkedlist.doubly.DoublyLInkedListTraversal" />
       <module name="dsa-practice" />
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.linkedlist.singly.LinkedListTraversal" />
+    <configuration name="LeastConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.problem.LeastConsecutiveSequence" />
       <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example1.practice.linkedlist.singly.*" />
+          <option name="PATTERN" value="org.example1.practice.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.problem.LongestSubstringWithoutRepeatChars" />
+    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.problem.LongestConsecutiveSequence" />
       <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
@@ -134,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedDescending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.linkedlist.singly.MergeSortedDescending" />
+    <configuration name="LongestSubstringWithoutRepeatChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.problem.LongestSubstringWithoutRepeatChars" />
       <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example1.practice.linkedlist.singly.*" />
+          <option name="PATTERN" value="org.example1.practice.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestConsecutiveSequence" />
+        <item itemvalue="Application.LeastConsecutiveSequence" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatChars" />
         <item itemvalue="Application.TestQueue" />
         <item itemvalue="Application.DoublyLInkedListTraversal" />
-        <item itemvalue="Application.LinkedListTraversal" />
-        <item itemvalue="Application.MergeSortedDescending" />
       </list>
     </recent_temporary>
   </component>
@@ -1756,6 +1758,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/problem/LongestConsecutiveSequence.java</url>
+          <line>61</line>
+          <properties class="org.example1.practice.problem.LongestConsecutiveSequence" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="361" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
