@@ -42,7 +42,6 @@ public class RotateArrayByDIndex {
         reverse(arr, 0, n - d - 1);
         reverse(arr, n - d, n - 1);
         reverse(arr, 0, n - 1);
-
     }
 
     private static void reverse(int[] arr, int x, int y) {

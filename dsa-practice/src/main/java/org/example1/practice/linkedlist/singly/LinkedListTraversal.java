@@ -46,7 +46,7 @@ public class LinkedListTraversal {
 
     }
 
-    private static Node convertFromList(int[] arr) {
+    protected static Node convertFromList(int[] arr) {
         Node head = new Node(arr[0]);
         Node temp = head;
         for (int i = 1; i < arr.length; i++) {
@@ -57,7 +57,7 @@ public class LinkedListTraversal {
     }
 
 
-    private static void printElement(Node head) {
+    protected static void printElement(Node head) {
 
         while (head != null) {
             System.out.print(head.data + " ");
