@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/problem/LongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,7 @@
     "Application.LongestSubArraySumK.executor": "Run",
     "Application.LongestSubstringWithoutRepeatChars.executor": "Run",
     "Application.MergeSortedDescending.executor": "Run",
+    "Application.ReverseLinkedList.executor": "Run",
     "Application.TestQueue.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -83,39 +84,13 @@
       <recent name="org.example.threading.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestConsecutiveSequence">
-    <configuration name="DoublyLInkedListTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.linkedlist.doubly.DoublyLInkedListTraversal" />
-      <module name="dsa-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example1.practice.linkedlist.problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReverseLinkedList">
     <configuration name="LeastConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example1.practice.problem.LeastConsecutiveSequence" />
       <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example1.practice.problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.linkedlist.LinkedListTraversal" />
-      <module name="dsa-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example1.practice.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,6 +124,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.linkedlist.singly.ReverseLinkedList" />
+      <module name="dsa-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example1.practice.linkedlist.singly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example1.problem.TestQueue" />
       <module name="programming-practice" />
@@ -164,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.LongestConsecutiveSequence" />
         <item itemvalue="Application.LeastConsecutiveSequence" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatChars" />
         <item itemvalue="Application.TestQueue" />
-        <item itemvalue="Application.DoublyLInkedListTraversal" />
       </list>
     </recent_temporary>
   </component>
