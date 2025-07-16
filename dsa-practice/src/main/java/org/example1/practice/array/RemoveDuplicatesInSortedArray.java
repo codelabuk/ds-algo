@@ -2,7 +2,6 @@ package org.example1.practice.array;
 
 import java.util.HashSet;
 import java.util.Set;
-import java.util.Stack;
 
 public class RemoveDuplicatesInSortedArray {
 
@@ -24,7 +23,7 @@ public class RemoveDuplicatesInSortedArray {
             }
         }
         return i + 1;
-    }
+    } 
 
 
     public static void main(String[] args) {

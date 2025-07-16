@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/MergeTwoSortedLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/MergeKSortedLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/RotateArrayByDIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/RotateArrayByDIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/LinkedListTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/LinkedListTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/RemoveDuplicatesInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/RemoveDuplicatesInSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,7 @@
     "Application.LongestConsecutiveSequence.executor": "Run",
     "Application.LongestSubArraySumK.executor": "Run",
     "Application.LongestSubstringWithoutRepeatChars.executor": "Run",
+    "Application.MergeKSortedLL.executor": "Run",
     "Application.MergeSortedDescending.executor": "Run",
     "Application.MergeTwoSortedLL.executor": "Run",
     "Application.ReverseLinkedList.executor": "Run",
@@ -87,7 +87,7 @@
       <recent name="org.example.threading.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeTwoSortedLL">
+  <component name="RunManager" selected="Application.MergeKSortedLL">
     <configuration name="LeastConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example1.practice.problem.LeastConsecutiveSequence" />
       <module name="dsa-practice" />
@@ -114,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.problem.LongestSubstringWithoutRepeatChars" />
+    <configuration name="MergeKSortedLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.linkedlist.singly.MergeKSortedLL" />
       <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeKSortedLL" />
         <item itemvalue="Application.MergeTwoSortedLL" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.LongestConsecutiveSequence" />
         <item itemvalue="Application.LeastConsecutiveSequence" />
-        <item itemvalue="Application.LongestSubstringWithoutRepeatChars" />
       </list>
     </recent_temporary>
   </component>
