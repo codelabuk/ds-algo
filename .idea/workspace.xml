@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/MergeKSortedLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/binarytree/LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/binarytree/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/RemoveDuplicatesInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/array/RemoveDuplicatesInSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +80,11 @@
       <recent name="E:\project\algorithm-ds\dsa-practice\src\main\java\org\example1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example1.practice.binarytree" />
       <recent name="org.example1.practice.linkedlist.doubly" />
       <recent name="org.example1.practice.array" />
       <recent name="org.example1.practice.recursion" />
       <recent name="org.example.pattern.structural.adapter" />
-      <recent name="org.example.threading.problem" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MergeKSortedLL">
