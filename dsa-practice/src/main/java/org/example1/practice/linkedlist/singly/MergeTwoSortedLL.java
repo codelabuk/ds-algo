@@ -68,7 +68,5 @@ public class MergeTwoSortedLL {
         Node head1 = LinkedListTraversal.convertFromList(arr1);
         Node head2 = LinkedListTraversal.convertFromList(arr2);
         printElement(optimal(head1, head2));
-
-
     }
 }
