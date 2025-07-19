@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560187c5-5c66-49dd-b8c9-33ac1137c364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/binarytree/SerializeDeserializeBTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/ReverseLinkedListv1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/MergeKSortedLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/MergeKSortedLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/MergeTwoSortedLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/MergeTwoSortedLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/ReverseLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,33 +45,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DoublyLInkedListTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LRUCache.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeastConsecutiveSequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListTraversalV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestConsecutiveSequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubArraySumK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubstringWithoutRepeatChars.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeKSortedLL.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSortedDescending.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeTwoSortedLL.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestQueue.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/repo/ds-algo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DoublyLInkedListTraversal.executor": "Run",
+    "Application.LRUCache.executor": "Run",
+    "Application.LeastConsecutiveSequence.executor": "Run",
+    "Application.LinkedListTraversal.executor": "Run",
+    "Application.LinkedListTraversalV1.executor": "Run",
+    "Application.LongestConsecutiveSequence.executor": "Run",
+    "Application.LongestConsecutiveSequenceV1.executor": "Run",
+    "Application.LongestSubArraySumK.executor": "Run",
+    "Application.LongestSubstringWithoutRepeatChars.executor": "Run",
+    "Application.MergeKSortedLL.executor": "Run",
+    "Application.MergeSortedDescending.executor": "Run",
+    "Application.MergeTwoSortedLL.executor": "Run",
+    "Application.ReverseLinkedList.executor": "Run",
+    "Application.ReverseLinkedListv1.executor": "Run",
+    "Application.TestQueue.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "D:/repo/ds-algo",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\project\algorithm-ds\src\main\java\org\example\collections" />
@@ -82,14 +83,14 @@
       <recent name="E:\project\algorithm-ds\dsa-practice\src\main\java\org\example1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example1.practice.linkedlist.singly" />
+      <recent name="org.example1.practice.problem" />
       <recent name="org.example1.practice.binarytree" />
       <recent name="org.example1.practice.linkedlist.doubly" />
       <recent name="org.example1.practice.array" />
-      <recent name="org.example1.practice.recursion" />
-      <recent name="org.example.pattern.structural.adapter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeKSortedLL">
+  <component name="RunManager" selected="Application.ReverseLinkedListv1">
     <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example1.practice.problem.LRUCache" />
       <module name="dsa-practice" />
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.problem.LongestConsecutiveSequence" />
+    <configuration name="LongestConsecutiveSequenceV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.problem.LongestConsecutiveSequenceV1" />
       <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example1.practice.linkedlist.singly.*" />
+          <option name="PATTERN" value="org.example1.practice.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example1.practice.linkedlist.singly.ReverseLinkedList" />
+    <configuration name="ReverseLinkedListv1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example1.practice.linkedlist.singly.ReverseLinkedListv1" />
       <module name="dsa-practice" />
       <extension name="coverage">
         <pattern>
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLinkedListv1" />
+        <item itemvalue="Application.LongestConsecutiveSequenceV1" />
         <item itemvalue="Application.MergeKSortedLL" />
         <item itemvalue="Application.MergeTwoSortedLL" />
         <item itemvalue="Application.LRUCache" />
-        <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.LongestConsecutiveSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -1679,6 +1680,24 @@
           <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/doubly/DoublyLInkedListTraversal.java</url>
           <line>60</line>
           <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/ReverseLinkedListv1.java</url>
+          <line>29</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/ReverseLinkedListv1.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dsa-practice/src/main/java/org/example1/practice/linkedlist/singly/ReverseLinkedListv1.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="366" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ds/pattern/prefixsum/SubArraySum.java</url>

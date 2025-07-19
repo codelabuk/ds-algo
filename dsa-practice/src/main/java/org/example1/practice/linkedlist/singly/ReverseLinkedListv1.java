@@ -2,21 +2,44 @@ package org.example1.practice.linkedlist.singly;
 
 import java.util.Stack;
 
-public class ReverseLinkedList {
+public class ReverseLinkedListv1 {
 
     public static void main(String[] args) {
         final int[] var = new int[]{1, 3, 5, 7};
         Node llNodes = fromList(var);
         print(llNodes);
-        print(reverseLLBruteForce(llNodes));
-        print(llNodes);
-        print(reverseInIteration(llNodes));
+        print(reverseLLBruteForce1(llNodes));
         Node llNodes1 = fromList(var);
-        print(reverseLinkedList(llNodes1));
+        print(reverseInIteration1(llNodes1));
+        Node llNodes2 = fromList(var);
+        print(reverseInRecursion(llNodes2));
 
     }
 
-    static Node reverseLLBruteForce(Node head) {
+    private static Node reverseInRecursion(Node head) {
+        if (head == null || head.next == null) return head;
+        Node newNode = reverseInRecursion(head.next);
+        Node front = head.next;
+        front.next = head;
+        head.next = null;
+        return newNode;
+
+    }
+
+    private static Node reverseInIteration1(Node head) {
+        if (head == null || head.next == null) return head;
+        Node temp = head, prev = null;
+        while (temp != null) {
+            Node front = temp.next;
+            temp.next = prev;
+            prev = temp;
+            temp = front;
+        }
+        return prev;
+
+    }
+
+    private static Node reverseLLBruteForce1(Node head) {
         Node temp = head;
         Stack<Integer> integerStack = new Stack<>();
         while (temp != null) {
@@ -29,30 +52,9 @@ public class ReverseLinkedList {
             temp = temp.next;
         }
         return head;
+
     }
 
-    static Node reverseInIteration(Node head) {
-        Node temp = head, prev = null;
-
-        while (temp != null) {
-            Node front = temp.next;
-            temp.next = prev;
-            prev = temp;
-            temp = front;
-        }  
-        return prev;
-    }
-
-    static Node reverseLinkedList(Node head) {
-        if (head == null || head.next == null) {
-            return head;
-        }
-        Node newNode = reverseLinkedList(head.next);
-        Node front = head.next;
-        front.next = head;
-        head.next = null;
-        return newNode;
-    }
 
     static Node fromList(int[] arr) {
         Node head = new Node(arr[0]);
